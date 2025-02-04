@@ -1,0 +1,201 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+  }
+
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #hero {
+    background: #d3d2d2;
+    padding: 150px;
+    text-align: left;
+  }
+  
+  #about {
+    background: #e6e6e6;
+    padding: 50px 150px;
+    text-align: left;
+  }
+
+  .project {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .project-image{
+    background: rgb(224, 224, 224);
+    border-radius: 0px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for styling */
+  }
+  
+  form {
+    margin: 20px 0;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #4CAF50;
+  }
+  
+  footer {
+    background: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between; /* Space between the columns */
+    gap: 20px; /* Optional: Space between columns */
+  }
+
+  .column {
+    flex: 1; /* Make the columns take up equal width */
+    padding: 20px;
+    /* border: 1px solid #ccc; /* Optional: Add a border */
+  }
+
+  .image-container {
+    width: 100%; /* Or any desired width */
+    max-width: 600px; /* Optional max-width to prevent the image from becoming too large */
+    margin: 10 auto; /* Center the image container */
+    padding: 10px; /* Add space inside the container */
+    text-align: center; /* Align the image within the container */
+  }
+
+  .image-container img {
+    width: 100%; /* Scale the image to fit the container's width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 0px; /* Optional: Rounded corners */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for styling */
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+    grid-template-rows: auto; /* Automatically adjust row height based on content */
+    gap: 10px; /* Space between grid items */
+    padding: 20px; /* Padding around the grid */
+    border-radius: 0px;
+  }
+
+  .grid-container-chip {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Two equal-width columns */
+    grid-template-rows: auto; /* Automatically adjust row height based on content */
+    gap: 10px; /* Space between grid items */
+    padding: 20px; /* Padding around the grid */
+  }
+
+  div.par {
+    text-align: justify;
+    padding: 10px 0px;
+  }
+
+  h2 {
+    padding: 10px 0px;
+    font-size:larger;
+  }
+
+  h4 {
+    font-weight: normal;
+    font-size: large;
+    padding: 20px;
+  }
+
+  #contact {
+    width: 60%; /* Set the width to 70% of the page */
+    margin: 0 auto; /* Center the section horizontally */
+    padding: 20px; /* Optional padding inside the section */
+    background-color: #f9f9f9; /* Optional: Background color */
+    border-radius: 8px; /* Optional: Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Shadow for a polished look */
+  }
+
+  #contact h2 {
+      text-align: center; /* Center the heading */
+  }
+
+  #contact-form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px; /* Space between form elements */
+  }
+
+  #contact-form input,
+  #contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+      font-family: Arial, sans-serif;
+  }
+
+  #contact-form button {
+      padding: 10px 20px;
+      background-color: #333;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 18px;
+  }
+
+  #contact-form button:hover {
+      background-color: #555; /* Change button color on hover */
+  }
